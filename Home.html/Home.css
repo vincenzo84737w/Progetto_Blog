@@ -1,0 +1,77 @@
+/* stile main*/
+body {
+    margin: 0;
+    width: 100%;
+}
+.logo_style{
+    font-family: cursive;
+    color: #EFEFEF;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+.main_nav_top{
+    background-color: #2B3A42;
+    width: 104%;
+    overflow: hidden;
+}
+.ul_nav_top{
+    background-color: #3F5765;
+    margin-top: 0;
+    overflow: hidden;
+    width: 101%;
+    height: 6%;
+}
+.li_nav_top{
+    float: left;
+    list-style-type: none;
+    cursor:pointer;
+    text-align: center;
+    font-family: cursive;
+    color: #EFEFEF;
+    padding-left: 12%;
+    margin-top: 10px;
+}
+
+/*home container*/
+.Home_container{
+    margin-left: 10.5%;
+    width: 80%;
+    height: 100%;
+    
+}
+
+/* container principali*/
+.container_top_1{
+    display: inline-block;
+    cursor: pointer;
+    width: 99.5%;
+    border: solid;
+    background-image: url(../Assets/Img_Home/Logo_f1.png);
+    height: 80%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Container_top_2{
+    cursor: pointer;
+    padding-left: 17px;
+    margin-top: 20px;
+    width: 48%;
+    display: inline-block;
+    height: 32% ;
+    background-color: red;
+}
+.container_top_3{
+    cursor: pointer;
+    padding-left: 18.5px;
+    margin-top: 20px;
+    width: 48%;
+    display: inline-block;
+    height: 32% ;
+    background-color: blue;
+}
+
+
+
+
