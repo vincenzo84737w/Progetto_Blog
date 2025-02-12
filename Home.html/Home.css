@@ -146,7 +146,6 @@ html, body {
     width: 70%;
     height: 80%;
     margin-top: 3%;
-    border: #2B3A42 solid;
     overflow: hidden;
     position: relative;
 }
@@ -157,12 +156,12 @@ html, body {
     height: 380px;
     list-style: none;
     vertical-align: baseline;
+    overflow: scroll;
 }
 .li_news{
     margin-left: 3%;
     width: 47%;
     height: 380px;
-    overflow: hidden;
     float: left;
     position: relative;
     vertical-align: baseline;
