@@ -1,5 +1,5 @@
 /* stile main*/
-body {
+html, body {
     margin: 0;
     width: 100%;
     overflow-x:hidden ; 
@@ -61,8 +61,6 @@ body {
     display: inline-block;
     cursor: pointer;
     width: 99%;
-    border: solid;
-    background-image: url(../Assets/Img_Home/Logo_f1.png);
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -140,6 +138,63 @@ body {
     margin-left: 5%;
 }
 
+/* container delle news con i vari stili*/
 
+.container_news_div{
+    display: block;
+    margin-left: 6%;
+    width: 70%;
+    height: 80%;
+    margin-top: 3%;
+    overflow: hidden;
+    position: relative;
+}
+.ul_style_news{
+    float: left;
+    position: relative;
+    max-width: 90%;
+    height: 380px;
+    list-style: none;
+    vertical-align: baseline;
+    overflow: scroll;
+}
+.li_news{
+    margin-left: 3%;
+    width: 47%;
+    height: 380px;
+    float: left;
+    position: relative;
+    vertical-align: baseline;
+}
+.li_news_div{
+    position: relative;
+    width: 100%;
+    float: right;
+    font-size: 100%;
+    margin-top: 3%;
+}
+.image_news{
+    position: relative;
+    float: left;
+    size: auto, (max-widht=400px) 100vm, 400px ;
+    background-color: blanchedalmond;
+}
+.team_title{
+    float: left;
+    position: relative;
+    font-weight: 400;
+}
+.style_title_team{
+    font-weight: 400;
+    font-family: cursive;
+}
+.title_span_news{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.img_news{
+    max-width: 100%;
+    height: auto;
+}
 
 
