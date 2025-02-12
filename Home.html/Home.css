@@ -61,8 +61,6 @@ html, body {
     display: inline-block;
     cursor: pointer;
     width: 99%;
-    border: solid;
-    background-image: url(../Assets/Img_Home/Logo_f1.png);
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -174,6 +172,7 @@ html, body {
     width: 100%;
     float: right;
     font-size: 100%;
+    margin-top: 3%;
 }
 .image_news{
     position: relative;
@@ -197,13 +196,6 @@ html, body {
 .img_news{
     max-width: 100%;
     height: auto;
-}
-.li_news::before{
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    animation: scroll-up 10s linear infinite;
 }
 
 
